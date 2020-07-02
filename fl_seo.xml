@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.7" method="upgrade" group="jshopping">
+	<name>[FL] JoomShopping SEO</name>
+	<author>Vitaliy Moskalyuk</author>
+	<creationDate>July 2019</creationDate>
+	<copyright>Copyright © 2019 Vitaliy Moskalyuk All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>info@2sweb.ru</authorEmail>
+	<authorUrl>https://2sweb.ru</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_JSHOPPING_FL_SEO_XML_DESCRIPTION</description>
+	
+	<files>
+		<filename plugin="fl_seo">fl_seo.php</filename>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">en-GB.plg_jshopping_fl_seo.ini</language>
+		<language tag="en-GB">en-GB.plg_jshopping_fl_seo.sys.ini</language>
+	</languages>
+	
+	<config>
+	
+		<fields name="params">
+		
+			<fieldset name="basic">
+				
+				<field type="note" label="Main Category"/>
+				
+				<fields name="maincategory">
+					
+					<fields name="meta_title">
+						
+						<field
+							name="replace"
+							label="JSHOPPING_FLSEO_MODE"
+							type="list"
+							class="chzn-color-state"
+							default="1"
+						>
+							<option value="0">JOFF</option>
+							<option value="write">Write if empty</option>
+							<option value="rewrite">Rewrite</option>
+						</field>
+						
+						<field
+							name="string"
+							label="Text"
+							type="textarea"
+							class="input-xxlarge"
+						/>
+						
+					</fields>
+					
+					<fields name="meta_description">
+						
+						<field
+							name="replace"
+							label="JSHOPPING_FLSEO_MODE"
+							type="list"
+							class="chzn-color-state"
+							default="1"
+						>
+							<option value="0">JOFF</option>
+							<option value="write">Write if empty</option>
+							<option value="rewrite">Rewrite</option>
+						</field>
+						
+						<field
+							name="string"
+							label="Text"
+							type="textarea"
+							class="input-xxlarge"
+						/>
+						
+					</fields>
+				
+				</fields>
+				
+				<field type="note" label="Category"/>
+				
+				<fields name="category">
+					
+					<fields name="meta_title">
+						
+						<field
+							name="replace"
+							label="JSHOPPING_FLSEO_MODE"
+							type="list"
+							class="chzn-color-state"
+							default="1"
+						>
+							<option value="0">JOFF</option>
+							<option value="write">Write if empty</option>
+							<option value="rewrite">Rewrite</option>
+						</field>
+						
+						<field
+							name="string"
+							label="Text"
+							type="textarea"
+							class="input-xxlarge"
+						/>
+						
+					</fields>
+					
+					<fields name="meta_description">
+						
+						<field
+							name="replace"
+							label="JSHOPPING_FLSEO_MODE"
+							type="list"
+							class="chzn-color-state"
+							default="1"
+						>
+							<option value="0">JOFF</option>
+							<option value="write">Write if empty</option>
+							<option value="rewrite">Rewrite</option>
+						</field>
+						
+						<field
+							name="string"
+							label="Text"
+							type="textarea"
+							class="input-xxlarge"
+						/>
+						
+					</fields>
+				
+				</fields>
+				
+				<field type="note" label="Product"/>
+				
+				<fields name="product">
+					
+					<fields name="meta_title">
+						
+						<field
+							name="replace"
+							label="JSHOPPING_FLSEO_MODE"
+							type="list"
+							class="chzn-color-state"
+							default="1"
+						>
+							<option value="0">JOFF</option>
+							<option value="write">Write if empty</option>
+							<option value="rewrite">Rewrite</option>
+						</field>
+						
+						<field
+							name="string"
+							label="Text"
+							type="textarea"
+							class="input-xxlarge"
+						/>
+						
+					</fields>
+					
+					<fields name="meta_description">
+						
+						<field
+							name="replace"
+							label="JSHOPPING_FLSEO_MODE"
+							type="list"
+							class="chzn-color-state"
+							default="1"
+						>
+							<option value="0">JOFF</option>
+							<option value="write">Write if empty</option>
+							<option value="rewrite">Rewrite</option>
+						</field>
+						
+						<field
+							name="string"
+							label="Text"
+							type="textarea"
+							class="input-xxlarge"
+						/>
+						
+					</fields>
+				
+				</fields>
+				
+			</fieldset>
+			
+			
+			
+		</fields>
+		
+	</config>
+	
+</extension>
